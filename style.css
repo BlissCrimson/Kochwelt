@@ -1,5 +1,6 @@
 body {
-    font-family: "Raleway"
+    font-family: "Raleway";
+    margin: 0px;
 }
 
 footer {
@@ -9,10 +10,121 @@ footer {
     align-items: center;
 }
 
+.recipeOfday {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 80px;
+
+}
+
+.main-right {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.recipe-img {
+    height: 400px;
+    border-radius: 10px;
+}
+
+.recipe {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
 .button-recipe-open {
     background-color: #008000;
+    color: white;
     border: 0;
+    padding: 8px 16px;
+    text-align: center;
+    width: 150px;
+    margin-top: 16px;
+
 }
+
+.button-recipe-open:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: #28a528;
+
+}
+
+.recipe_container {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    text-align: center;
+    background-color: #EFEFEF;
+    margin-top: 64px;
+
+
+
+}
+
+.recipe_images {
+    height: 200px;
+    display: flex;
+    border-radius: 10px;
+    width: 190px;
+
+}
+
+.recipe-titel {
+    color: black;
+    font-weight: 600;
+}
+
+.headline_tips {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+
+
+
+.blog_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.blog_text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 72px;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+
+
+.wok_img {
+    height: 150px;
+    border-radius: 8px;
+
+}
+
+.recipe_tips {
+    display: flex;
+    margin-bottom: 64px;
+    ;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+
 
 .logo-Kochwelt-text {
     height: 64px;
