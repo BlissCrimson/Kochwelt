@@ -44,14 +44,14 @@ a {
 }
 
 
-=======
+
 .button {
     background-color: #008000;
     color: white;
     border: 0;
 }
 
->>>>>>> fc3d6fb1d19ca33ffbc7c6c3d93bf942e2ee480d
+
 .button-recipe-open {
     background-color: #008000;
     color: white;
@@ -63,7 +63,7 @@ a {
 
 }
 
-<<<<<<< HEAD
+
 .button-recipe-open:hover {
     text-decoration: underline;
     cursor: pointer;
@@ -137,7 +137,7 @@ a {
 
 
 
-=======
+
 .button-contact {
     display: flex;
     justify-content: center;
@@ -157,7 +157,6 @@ a {
     padding-right: 5px;
 }
 
->>>>>>> fc3d6fb1d19ca33ffbc7c6c3d93bf942e2ee480d
 .logo-Kochwelt-text {
     height: 64px;
     filter: invert(1);
