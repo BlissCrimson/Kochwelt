@@ -10,9 +10,21 @@ footer {
     align-items: center;
 }
 
+.button {
+    background-color: #008000;
+    color: white;
+    border: 0;
+}
+
 .button-recipe-open {
     background-color: #008000;
     border: 0;
+}
+
+.button-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .recipe-div-icon {
@@ -36,4 +48,23 @@ footer {
 .logo-socialmedia {
     height: 48px;
     padding-right: 8px;
+}
+
+.contact-outside {
+    background-color: #EFEFEF;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.contact-inside {
+    width: 390px;
+}
+
+.contact-input {
+    width: 370px;
+
 }
