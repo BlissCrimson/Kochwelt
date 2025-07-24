@@ -1,0 +1,14 @@
+body {
+    font-family: "Raleway"
+}
+
+footer {
+    background-color: #403B3B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-logo {
+    filter: invert(1);
+}
