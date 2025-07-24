@@ -9,6 +9,16 @@ footer {
     align-items: center;
 }
 
-.footer-logo {
+.button-recipe-open {
+    background-color: #008000;
+    border: 0;
+}
+
+.logo-Kochwelt-text {
+    height: 64px;
     filter: invert(1);
+}
+
+.logo-socialmedia {
+    height: 64px;
 }
