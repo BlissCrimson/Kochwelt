@@ -3,7 +3,7 @@ body {
     margin: 0px;
 }
 
-.head {
+header {
     /*Positionierung des Headers*/
     width: 100%;
     height: 100px;
