@@ -51,7 +51,6 @@ a {
     border: 0;
 }
 
-
 .button-recipe-open {
     background-color: #008000;
     color: white;
@@ -62,15 +61,21 @@ a {
     margin-top: 16px;
 
 }
-
-
-.button-recipe-open:hover {
+/* that's ok? So become all buttons hover */
+.button:hover {
     text-decoration: underline;
     cursor: pointer;
     background-color: #28a528;
-
 }
+/* .button-recipe-open:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: #28a528;
+} */
 
+.button-contact {
+    border-radius: 2px;
+}
 .recipe_container {
     display: flex;
     flex-direction: column;
@@ -171,6 +176,7 @@ a {
     background-color: #EFEFEF;
     width: 500px;
     height: 500px;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
