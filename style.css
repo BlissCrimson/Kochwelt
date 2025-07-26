@@ -278,7 +278,7 @@ a {
 
 .braten_header {
     display: flex;
-    align-items: center;
+    align-items: self-;
     flex-direction: column;
 
 }
