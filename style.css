@@ -97,8 +97,9 @@ footer {
 
 .braten_text {
     display: flex;
-    justify-content: center;
+    
     flex-direction: column;
+    
     max-width: 400px;
 }
 
@@ -139,6 +140,9 @@ a {
 .button-contact {
     border-radius: 2px;
 }
+
+
+
 .recipe_container {
     display: flex;
     flex-direction: column;
@@ -316,6 +320,7 @@ a {
 }
 
 .ingredientList{
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
