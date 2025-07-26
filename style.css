@@ -1,7 +1,18 @@
 body {
     font-family: "Raleway";
     margin: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
+main{
+    flex-direction: column;
+    max-width: 1100px;
+}
+/*main-page*/
+
 
 footer {
     height: 128px;
@@ -16,7 +27,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
     gap: 80px;
 
 }
@@ -26,6 +37,7 @@ footer {
     flex-direction: column;
 
 }
+
 
 .recipe-img {
     height: 400px;
@@ -56,7 +68,7 @@ a {
     background-color: #008000;
     color: white;
     border: 0;
-    padding: 8px 16px;
+    padding: 4px 16px;
     text-align: center;
     width: 150px;
     margin-top: 16px;
@@ -78,6 +90,7 @@ a {
     text-align: center;
     background-color: #EFEFEF;
     margin-top: 64px;
+    width: 100%;
 
 
 
@@ -130,7 +143,6 @@ a {
 .recipe_tips {
     display: flex;
     margin-bottom: 64px;
-    ;
     justify-content: space-around;
     text-decoration: none;
 }
@@ -183,5 +195,76 @@ a {
 
 .contact-input {
     width: 370px;
+
+}
+
+
+
+/*braten-recipe*/
+
+main {
+    display: flex;
+    
+}
+
+
+.braten_header_img {
+
+    width: 1000px;
+    height: 186px;
+    display: flex;
+    object-fit: cover;
+    border-radius: 8px;
+
+
+}
+
+.braten_header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.header_infos {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.header_infos_text {
+    padding: 4px 12px;
+    background-color: #EFEFEF;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 48px;
+
+}
+
+.info_image {
+    height: 16px;
+
+}
+
+.recipe_main{
+    flex-direction: column;
+    
+    gap: 16px;
+    
+    
+}
+
+
+.recipe_table{
+    display: flex;
+
+}
+
+.ingredientList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
