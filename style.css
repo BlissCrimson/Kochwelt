@@ -142,6 +142,7 @@ a {
 }
 
 
+/*Lust auf was Neues ?*/
 
 .recipe_container {
     display: flex;
@@ -176,7 +177,7 @@ a {
 
 
 
-
+/*Wok vs. Pfanne - Was st Besser?*/
 .blog_container {
     display: flex;
     align-items: center;
@@ -207,7 +208,7 @@ a {
     text-decoration: none;
 }
 
-
+/*                    */
 
 
 .button-contact {
@@ -264,7 +265,15 @@ a {
 /*braten-recipe*/
 
 
+.recipe_main{
+    flex-direction: column;
+    gap: 16px;
+    max-width: 1000px;
+    
+    
+}
 
+            /*header*/
 .braten_header_img {
 
     width: 1000px;
@@ -305,14 +314,10 @@ a {
 
 }
 
-.recipe_main{
-    flex-direction: column;
-    
-    gap: 16px;
-    
-    
-}
+/*  */
 
+
+/*Zutatenliste- Tabelle*/
 
 .recipe_table{
     display: flex;
@@ -326,3 +331,19 @@ a {
     justify-content: space-between;
 
 }
+/*  */
+
+/*Rezept*/
+
+.braten_recipe{
+    margin-bottom: 60px;
+}
+
+
+.recipe_infos{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+/*  */
