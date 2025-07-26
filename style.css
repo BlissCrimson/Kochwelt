@@ -7,14 +7,14 @@ body {
     align-items: center;
 }
 
-<<<<<<< HEAD
+
 main{
     flex-direction: column;
     max-width: 1100px;
 }
 /*main-page*/
 
-=======
+
 header {
     /*Positionierung des Headers*/
     width: 100%;
@@ -62,7 +62,7 @@ header {
     text-decoration-thickness: 4px;
     text-underline-offset: 10px;
 }
->>>>>>> f03903b2340c266dedd40eb8b694a98c65b3f7a2
+
 
 footer {
     height: 128px;
@@ -72,12 +72,9 @@ footer {
     align-items: center;
 }
 
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD /* this code i don't understand */
->>>>>>> f03903b2340c266dedd40eb8b694a98c65b3f7a2
+/* head-main*/
 .recipeOfday {
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,7 +95,7 @@ footer {
     border-radius: 10px;
 }
 
-.recipe {
+.braten_text {
     display: flex;
     justify-content: center;
     flex-direction: column;
