@@ -14,30 +14,40 @@
 
 <body>
     <header>
-
+        <div class="head_icon_pos">
+            <img class="head_icon" src="./img/logo.png" alt="Kochwelticon">
+        </div>
+        <nav class="navbar"> <!--Navigationsbar-->
+            <a class="nav_links" href="index.html">Start</a>
+            <a class="nav_links" href="recipe-spaghettisalad.html">Rezept des Tages</a>
+            <a class="nav_links" href="contact.html">Kontakt</a>
+            <a class="nav_links" href="impressum.html">Impressum</a>
+        </nav>
     </header>
     <main>
         <div class="contact-outside">
             <div class="contact-inside">
-                <form action="">
+                <form onsubmit="sendMail(event)">
                     <h2>Kontaktiere uns</h2>
                     <label for="name">Dein Name:</label>
                     <br>
-                    <input class="contact-input" id="name" type="text">
+                    <input class="contact-input" id="name" type="text" required>
                     <br>
                     <br>
-                    <label for="email">Deine E-Mail:</label>
+                    <label for="mail"> Deine E-Mail:</label>
                     <br>
-                    <input class="contact-input" id="email" type="email">
-                    <br>
-                    <br>
-                    <label for="massage">Deine Nachricht</label>
-                    <br>
-                    <input class="contact-input" id="massage" type="text">
+                    <input class="contact-input" id="mail" type="email" name="email" required>
                     <br>
                     <br>
-                    <input class="button button-contact" type="submit">
+                    <label for="message"> Deine Nachricht:</label>
+                    <br>
+                    <textarea class="contact-input" id="message" name="message" maxlength="100" required></textarea>
+                    <br>
+                    <br>
+                    <!-- your other form fields go here -->
+                    <button class="button button-contact" type="submit">Abschicken</button>
                 </form>
+
             </div>
         </div>
     </main>
