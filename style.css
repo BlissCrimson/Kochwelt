@@ -8,10 +8,11 @@ body {
 }
 
 
-main{
+main {
     flex-direction: column;
     max-width: 1100px;
 }
+
 /*main-page*/
 
 
@@ -70,6 +71,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 
 /* head-main*/
@@ -78,9 +80,13 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     gap: 80px;
 
+}
+
+.recipeOfday_text {
+    margin-bottom: 20px;
 }
 
 .main-right {
@@ -95,16 +101,11 @@ footer {
     border-radius: 10px;
 }
 
-.braten_text {
-    display: flex;
-    
-    flex-direction: column;
-    
-    max-width: 400px;
-}
+
 
 a {
     text-decoration: none;
+
 }
 
 
@@ -119,23 +120,26 @@ a {
     background-color: #008000;
     color: white;
     border: 0;
-    padding: 4px 16px;
+    padding: 8px 16px;
     text-align: center;
     width: 150px;
-    margin-top: 16px;
+
 
 }
+
 /* that's ok? So become all buttons hover */
 .button:hover {
     text-decoration: underline;
     cursor: pointer;
     background-color: #28a528;
 }
-/* .button-recipe-open:hover {
+
+/* button mit padding// kann man noch entscheiden wie man's genau macht */
+.button-recipe-open:hover {
     text-decoration: underline;
     cursor: pointer;
     background-color: #28a528;
-} */
+}
 
 .button-contact {
     border-radius: 2px;
@@ -265,15 +269,15 @@ a {
 /*braten-recipe*/
 
 
-.recipe_main{
+.recipe_main {
     flex-direction: column;
     gap: 16px;
     max-width: 1000px;
-    
-    
+
+
 }
 
-            /*header*/
+/*header*/
 .braten_header_img {
 
     width: 1000px;
@@ -317,33 +321,75 @@ a {
 /*  */
 
 
-/*Zutatenliste- Tabelle*/
+/*ingredientList*/
 
-.recipe_table{
+
+
+.potions{
     display: flex;
-
+    gap:8px;
+    align-items: center;
 }
 
-.ingredientList{
+
+.potions_input {
+    display: flex;
     
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    border-collapse: collapse;
+    
+}
+
+td,
+tr {
+    width: 984px;
+    padding: 8px;
+    border-collapse: collapse;
 
 }
+
+table {
+    display: flex;
+
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+
+    background-color: #dddddd;
+
+}
+
+
+
+
+
 /*  */
+
+
+
 
 /*Rezept*/
 
-.braten_recipe{
+.braten_recipe {
     margin-bottom: 60px;
 }
 
 
-.recipe_infos{
+.recipe_infos {
     display: flex;
     gap: 20px;
     text-align: center;
 }
 
-/*  */
+
+.profile_logo {
+    height: 100px;
+    border-radius: 50px;
+}
+
+.created_from {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 100px;
+}
