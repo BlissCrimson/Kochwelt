@@ -329,6 +329,7 @@ a {
     display: flex;
     gap:8px;
     align-items: center;
+    margin-bottom: 8px;
 }
 
 
@@ -353,9 +354,9 @@ table {
     border-collapse: collapse;
 }
 
-tr:nth-child(even) {
+tr:nth-child(odd) {
 
-    background-color: #dddddd;
+    background-color: #EFEFEF;
 
 }
 
