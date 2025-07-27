@@ -1,3 +1,5 @@
+
+
 body {
     font-family: "Raleway";
     margin: 0px;
@@ -5,12 +7,14 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    scroll-behavior: smooth;
 }
 
 
 main {
     flex-direction: column;
     max-width: 1100px;
+    margin-top: 100px;
 }
 
 /*main-page*/
@@ -76,7 +80,7 @@ footer {
 
 /* head-main*/
 .recipeOfday {
-    margin-top: 80px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -166,6 +170,7 @@ a {
     display: flex;
     border-radius: 10px;
     width: 190px;
+    object-fit: cover;
 
 }
 
@@ -278,14 +283,19 @@ a {
 }
 
 /*header*/
-.braten_header_img {
-
+.recipe_header_img {
+    width: 100%;
+    max-width: 1000px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    /**
     width: 1000px;
     height: 186px;
     display: flex;
     object-fit: cover;
     border-radius: 8px;
-
+*/
 
 }
 
@@ -325,19 +335,21 @@ a {
 
 
 
-.potions{
+.potions {
     display: flex;
-    gap:8px;
+    gap: 8px;
     align-items: center;
     margin-bottom: 8px;
+    
 }
 
 
 .potions_input {
     display: flex;
     
+
     border-collapse: collapse;
-    
+
 }
 
 td,
@@ -394,4 +406,14 @@ tr:nth-child(odd) {
     gap: 30px;
     align-items: center;
     margin-bottom: 100px;
+}
+
+
+h3{
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.zubereitung {
+    margin-bottom: 0px;
 }
