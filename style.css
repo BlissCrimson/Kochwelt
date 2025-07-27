@@ -342,10 +342,11 @@ a {
 
 td,
 tr {
+    height: 32px;
     width: 984px;
     padding: 8px;
     border-collapse: collapse;
-
+    border-radius: 8px;
 }
 
 table {
