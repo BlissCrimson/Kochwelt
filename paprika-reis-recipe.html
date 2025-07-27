@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kochwelt</title>
+    <link rel="icon" href="./img/logo_small.png"> <!--Favicon-->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Raleway";
+            font-size: 20px;
+        }
+
+
+        header {
+            /*Positionierung des Headers*/
+            width: 100%;
+            height: 100px;
+            /* position: absolute; */
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            filter: drop-shadow(0px 0px 3px gray);
+        }
+
+        .head_icon_pos {
+            /*Positionierung des Header-Icons*/
+            display: flex;
+            align-items: center;
+            margin-left: 120px;
+        }
+
+        .head_icon {
+            /*Header-Icon Größe*/
+            height: 70px;
+        }
+
+        .navbar {
+            /*Navigationsbarpositionierung*/
+            display: flex;
+            align-items: flex-end;
+            gap: 20px;
+            margin-right: 120px;
+            margin-bottom: 10px;
+        }
+
+        .nav_links {
+            /*Navigationslinks*/
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .nav_links:hover {
+            /*Navigationslinks - hover*/
+            cursor: pointer;
+            color: #008000;
+            text-decoration: underline;
+            text-decoration-thickness: 4px;
+            text-underline-offset: 10px;
+        }
+
+        /*Rezeptanfangseite*/
+        .rezept_page {
+            margin-left: 120px;
+            margin-right: 120px;
+            margin-top: 80px;
+            margin-bottom: 120px;
+        }
+
+        .pic {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .symbols {
+            width: 16px;
+            height: 16px;
+        }
+
+        .short_infos {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background-color: #EFEFEF;
+            padding-right: 14px;
+            padding-left: 14px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            border-radius: 10px;
+        }
+
+        .infos_flex {
+            display: flex;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .text_styling {
+            margin: 0;
+        }
+
+        /*Zutatenseite*/
+        .section_abstand {
+            margin-top: 80px;
+        }
+
+        .eingabe_portionen {
+            display: flex;
+            padding-right: 14px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .abstand {
+            padding-right: 20px;
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+
+        .input_field {
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-color: #EFEFEF;
+            box-shadow: none;
+        }
+
+        button {
+            background-color: #008000;
+            color: white;
+            border: 0;
+            width: 180px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        .balken {
+            padding-top: 1px;
+            padding-bottom: 1px;
+        }
+
+        tr {
+            display: flex;
+            gap: 4px;
+            padding-right: 14px;
+            padding-left: 42px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            border-radius: 10px;
+        }
+
+        .tr_zusatz {
+            background-color: #EFEFEF;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        /*Zubereitung*/
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .profil_image {
+            width: 80px;
+            border-radius: 100%;
+        }
+
+        .flex {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .name {
+            font-size: 28px;
+            margin: 0;
+        }
+
+        h3 {
+            margin-top: 42px;
+            margin-bottom: 24px;
+        }
+
+        .zubereitungstext {
+            margin-top: 32px;
+        }
+    </style>
+</head>
+
+<body>
+    <header> <!--Header-->
+        <div class="head_icon_pos">
+            <img class="head_icon" src="./img/logo.png" alt="Kochwelticon">
+        </div>
+        <nav class="navbar"> <!--Navigationsbar-->
+            <a class="nav_links" href="#">Start</a>
+            <a class="nav_links" href="#">Rezept des Tages</a>
+            <a class="nav_links" href="#">Kontakt</a>
+            <a class="nav_links" href="#">Impressum</a>
+        </nav>
+    </header>
+    <main class="rezept_page">
+        <!--Rezeptanfangsseite-->
+        <section>
+            <h1>Paprika-Reispfanne</h1>
+            <img class="pic" src="./img/paprikapfanne.jpg" alt="Essensbild">
+            <div class="infos_flex">
+                <div class="short_infos">
+                    <img class="symbols" src="./img/icons/clock-regular.svg" alt="Zeitsymbol">
+                    <span class="text_styling">45 Min.</span>
+                </div>
+                <div class="short_infos">
+                    <img class="symbols" src="./img/icons/brain-solid.svg" alt="Hirnsymbol">
+                    <span class="text_styling">normal</span>
+                </div>
+                <div class="short_infos">
+                    <img class="symbols" src="./img/icons/calendar-alt-regular.svg" alt="Kalendersymbol">
+                    <span class="text_styling">26.07.2025</span>
+                </div>
+            </div>
+        </section>
+        <!--Zutaten-->
+        <section class="section_abstand">
+            <div class="short_infos balken"></div>
+            <form class="eingabe_portionen">
+                <span class="abstand">Zutaten für</span>
+                <input class="input_field" type="text" id="portionen">
+                <button>Portionen</button>
+            </form>
+            <table>
+                <tr class="tr_zusatz">
+                    <td>3</td>
+                    <td>Zwiebeln</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Zehe(n) Knoblauch</td>
+                </tr>
+                <tr class="tr_zusatz">
+                    <td>1,5</td>
+                    <td>Chilischote(n)</td>
+                </tr>
+                <tr>
+                    <td>4,5</td>
+                    <td>EL Tomatenmark</td>
+                </tr>
+                <tr class="tr_zusatz">
+                    <td>4,5</td>
+                    <td>Paprikaschote(n)</td>
+                </tr>
+                <tr>
+                    <td>450</td>
+                    <td>g Joghurt</td>
+                </tr>
+                <tr class="tr_zusatz">
+                    <td>1,5</td>
+                    <td>TL Paprikapulver, edelsüß</td>
+                </tr>
+                <tr>
+                    <td>1,5</td>
+                    <td>TL Paprikapulver, rosenscharf</td>
+                </tr>
+                <tr class="tr_zusatz">
+                    <td>1,5</td>
+                    <td>Handvoll Basilikum, frisch</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Tasse(n) Basmatireis</td>
+                </tr>
+            </table>
+        </section>
+        <!--Zubereitung-->
+        <section>
+            <h2>Zubereitung</h2>
+            <div class="infos_flex">
+                <div class="short_infos">
+                    <img class="symbols" src="./img/icons/clock-regular.svg" alt="Zeitsymbol">
+                    <span class="text_styling">ca. 25 Minuten</span>
+                </div>
+                <div class="short_infos">
+                    <img class="symbols" src="./img/icons/clock-regular.svg" alt="Zeitsymbol">
+                    <span class="text_styling">Gesamtzeit ca. 45 Minuten</span>
+                </div>
+            </div>
+            <article class="zubereitungstext">
+                Die Chilischote längs halbieren, von den Kernen befreien und
+                hacken. Die Paprikaschoten putzen und würfeln. Die Zwiebeln fein
+                würfeln und in einer Pfanne in etwas Öl glasig dünsten. Den
+                gepressten Knoblauch, die Chilischote und das Tomatenmark
+                hinzugeben und kurz mit anschwitzen. Die Paprikawürfel in die
+                Pfanne geben und ein paar Minuten lang anbraten, dabei ab und zu
+                die Pfanne schwenken. Den Joghurt hinzufügen, verrühren und alles
+                mit Paprikapulver, Salz und Pfeffer würzen.
+                Zu guter Letzt den Reis hinzugeben, untermengen und heiß werden lassen. Danach die
+                Kräuter hacken und untermischen.
+            </article>
+            <h3>Rezept erstellt von</h3>
+            <div class="flex">
+                <img class="profil_image" src="./img/profile.png" alt="Profilbild">
+                <span class="name">Morris</span>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
