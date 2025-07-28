@@ -9,8 +9,9 @@ body {
 }
 
 main {
+    display: flex;
     flex-direction: column;
-    max-width: 1100px;
+    
     margin-top: 100px;
 }
 
@@ -281,7 +282,7 @@ button:hover {
 
 .braten_header {
     display: flex;
-    align-items: self-;
+    
     flex-direction: column;
 }
 
