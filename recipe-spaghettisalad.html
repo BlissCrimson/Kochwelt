@@ -10,14 +10,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script>
 
-    </script>
 </head>
 
 <body>
-    <header>
-
+    <header id="home"> <!--Header-->
+        <div class="head_icon_pos">
+            <img class="head_icon" src="./img/logo.png" alt="Kochwelticon">
+        </div>
+        <nav class="navbar"> <!--Navigationsbar-->
+            <a class="nav_links" href="index.html">Start</a>
+            <a class="nav_links" href="paprika-reis-recipe.html">Rezept des Tages</a>
+            <a class="nav_links" href="contact.html">Kontakt</a>
+            <a class="nav_links" href="impressum.html">Impressum</a>
+        </nav>
     </header>
     <main>
         <h2>Spaghettisalat</h2>
@@ -39,9 +45,9 @@
         <!-- portions -->
         <div>
             <form action="">
-                <label for="portion-input">Zutaten für</label>
-                <input id="portion-input" min="1" max="20" type="number">
-                <input class="button" type="submit" value="Portionen" onclick="ingridents()">
+                <label for="portionInput">Zutaten für</label>
+                <input id="portionInput" min="1" max="20" type="number" value="4">
+                <input id="portionInput" class="button" type="submit" value="Portionen" onsubmit="ingridents()">
             </form>
 
         </div>
@@ -50,43 +56,39 @@
             <p></p>
         </div>
         <!-- preparation -->
-         <div id="recipe-spaghettisalad-ingridents"></div>
+        <div id="recipe-spaghettisalad-ingridents"></div>
 
 
-<table>
-    <tr>
-        <td>2</td>
-        <td>Tassen Gebrochene Spaghetti</td>
-    </tr>
-    <tr>
-        <td>6-8</td>
-        <td>mittelgroße Tomaten</td>
-    </tr>
-    <tr>
-        <td>6-8</td>
-        <td>hartgekochte Eier</td>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>Glas Miracel Whip</td>
-    </tr>
-    <tr>
-        <td>1/2</td>
-        <td>Becher süße Sahne</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>Ketchup</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>Salz</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>Pfeffer</td>
-    </tr>
-</table>
+        <table>
+            <tr>
+                <td id="ingridents1">2</td>
+                <td>Tassen Gebrochene Spaghetti</td>
+            </tr>
+            <tr id="ingridents2">
+                <td>7</td>
+                <td>mittelgroße Tomaten</td>
+            </tr>
+            <tr id="ingridents3">
+                <td>7</td>
+                <td>hartgekochte Eier</td>
+            </tr>
+            <tr id="ingridents4">
+                <td>1</td>
+                <td>Glas Miracel Whip</td>
+            </tr>
+            <tr id="ingridents5">
+                <td>1/2</td>
+                <td>Becher süße Sahne</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Ketchup</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Salz und Pfeffer</td>
+            </tr>
+        </table>
         <div>
             <h2>Zubereitung</h2>
 
@@ -114,8 +116,27 @@
         </div>
     </main>
     <footer>
-
+        <div>
+            <a href="index.html"> <img class="logo-Kochwelt-text" src="./img/logo.png" alt="Logo Kochwelt" /></a>
+        </div>
+        <div>
+            <a href="https://facebook.com" target="_blank"><img class="logo-socialmedia"
+                    src="./img/Find-us-on-facebook.png" alt="follow us on Facebook"></a>
+            <a href="https://instagram.com" target="_blank"><img class="logo-socialmedia"
+                    src="./img/follow-us-on-instagram-icon.svg" alt="follow us on Instagram"></a>
+            <a href="https://x.com" target="_blank"><img class="logo-socialmedia" src="./img/follow-us-on-twitter.svg"
+                    alt="follow us on twitter"></a>
+        </div>
     </footer>
 </body>
+<script>
+    // ingridents quantities for 4 portions
+    // 2
+    // 7
+    // 7
+    // 1
+    // 1/2 / 0.5
+
+</script>
 
 </html>
