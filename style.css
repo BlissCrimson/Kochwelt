@@ -271,20 +271,9 @@ button:hover {
     height: 220px;
     object-fit: cover;
     border-radius: 10px;
-    /** 
-    width: 1000px;
-    height: 186px;
-    display: flex;
-    object-fit: cover;
-    border-radius: 8px;
-*/
+
 }
 
-.braten_header {
-    display: flex;
-    
-    flex-direction: column;
-}
 
 .header_infos {
     display: flex;

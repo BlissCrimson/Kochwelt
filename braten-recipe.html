@@ -13,7 +13,7 @@
 
     <header>
         <div class="head_icon_pos">
-           <a href="index.html"> <img class="head_icon" src="./img/logo.png" alt="Kochwelticon"></a>
+            <a href="index.html"> <img class="head_icon" src="./img/logo.png" alt="Kochwelticon"></a>
         </div>
         <nav class="navbar"> <!--Navigationsbar-->
             <a class="nav_links" href="index.html">Start</a>
@@ -28,7 +28,7 @@
 
     <main class="recipe_main">
 
-        <section class="braten_header">
+        <section>
             <h1>Klassischer Rinderbraten</h1>
             <img class="recipe_header_img" src="img/braten.jpg" alt="">
             <div class="header_infos">
@@ -38,55 +38,63 @@
             </div>
         </section>
 
-
+        <!-- trennbalken -->
         <div style="width: 100%; height: 2px; background-color: #EFEFEF; margin-bottom: 8px; margin-top: 32px;">
         </div>
 
+        <!-- portions -->
 
         <section class="ingredientList">
 
 
 
 
+
+
+
+
+            <div class="potions">
+                Zutaten für
+                <div class="potions_input"><input
+                        style="border-color: #EFEFEF; min-height: 28px; border-bottom-left-radius: 8px; border-top-left-radius: 8px;"
+                        startIndex="1" type="number" id="portionen"> <a class="button-recipe-open"
+                        href="#">Portionen</a>
+                </div>
+            </div>
             <table>
 
-
-
-                <div class="potions">
-                    Zutaten für
-                    <div class="potions_input"><input style="border-color: #EFEFEF; min-height: 28px; border-bottom-left-radius: 8px; border-top-left-radius: 8px;" startIndex="1" type="number" id="portionen"> <a
-                            class="button-recipe-open" href="#">Portionen</a>
-                    </div>
-                </div>
-
-
-
                 <tr>
-                    <td>1.5</td><td>kg Rinderbraten</td>
+                    <td id="ingridents1">1.5</td>
+                    <td>kg Rinderbraten</td>
                 </tr>
                 <tr>
-                    <td>4</td><td>Knoblauchzehen</td>
+                    <td id="ingridents2">4</td>
+                    <td>Knoblauchzehen</td>
                 </tr>
                 <tr>
-                    <td>3 </td><td>m. Große Zwiebeln</td>
+                    <td id="ingridents3">3 </td>
+                    <td>m. Große Zwiebeln</td>
                 </tr>
                 <tr>
-                    <td>130</td><td>  ml Rotwein, trockener</td>
+                    <td id="ingridents4">130</td>
+                    <td> ml Rotwein, trockener</td>
                 </tr>
                 <tr>
-                    <td>250</td><td> ml Rinderbrühe</td>
+                    <td id="ingridents5">250</td>
+                    <td> ml Rinderbrühe</td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td id="ingridents6"></td>
                     <td> Salz, Pfeffer</td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td id="ingridents7"></td>
                     <td> Senf</td>
                 </tr>
                 <tr>
 
-                    <td>2</td><td> EL Öl</td>
+                    <td id="ingridents8">2</td>
+                    <td> EL Öl</td>
                 </tr>
 
 
@@ -168,7 +176,7 @@
 
 
     <footer>
-         <div>
+        <div>
             <a href="index.html"> <img class="logo-Kochwelt-text" src="./img/logo.png" alt="Logo Kochwelt" /></a>
         </div>
         <div>
