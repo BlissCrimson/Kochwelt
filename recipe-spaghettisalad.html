@@ -31,7 +31,8 @@
 
         <section>
             <h1>Spaghettisalat</h1>
-            <img class="recipe_header_img" src="img/braten.jpg" alt=""><!-- spghettisalat img muss noch hinein -->
+            <img class="recipe_header_img" src="img/spaghettisalat.jpg"
+                alt=""><!-- spghettisalat img muss noch hinein -->
             <div class="header_infos">
                 <p class="header_infos_text"><img class="info_image" src="img/clock-regular.svg">30 min</p>
                 <p class="header_infos_text"><img class="info_image" src="img/brain-solid.svg">normal</p>
@@ -46,7 +47,7 @@
 
 
         <!-- portions -->
-        <div>
+        <!-- <div>
             <form class="potions" action="">
                 <label for="portionInput">Zutaten für</label>
                 <input id="portionInput" min="1" max="20" type="number" value="4">
@@ -54,87 +55,95 @@
             </form>
 
         </div>
-
-        <!--  css noch anpassen, dass die zusammenpassen - hab ich eine frage zu
-        <div class="potions">
-            Zutaten für
-            <div class="potions_input"><input
-                    style="border-color: #EFEFEF; min-height: 28px; border-bottom-left-radius: 8px; border-top-left-radius: 8px;"
-                    startIndex="1" type="number" id="portionen"> <a class="button-recipe-open" href="#">Portionen</a>
-            </div>
-        </div>
         -->
 
-        <!-- List -->
-        <div id="ingridents-spaghettisalad">
+
+        <!-- id und andere parameter mit eingebaut  und auf allen seiten angepasst-->
+
+        <section>
+            <div class="potions">
+                Zutaten für
+                <form id="portionInput" class="potions_input"><input min="1" max="20" type="number" value="4"
+                        style="border-color: #EFEFEF; min-height: 28px; border-bottom-left-radius: 8px; border-top-left-radius: 8px; width: 168px;"
+                        startIndex="1" type="number" id="portionen"> <a class="button-recipe-open" href="#"
+                        onsubmit="ingridents()">Portionen</a>
+                </form>
+            </div>
+
+
+            <!-- List -->
+            <!-- <div id="ingridents-spaghettisalad">
             <p></p>
-        </div>
-        <!-- preparation -->
-        <div id="recipe-spaghettisalad-ingridents"></div>
+        </div>-->
+            <!-- preparation -->
+            <!--<div id="recipe-spaghettisalad-ingridents"></div>-->   <!-- muss das drinnen bleiben oder kann ich das löschen ?  -->
 
-        <table>
-
-            <tr>
-                <td id="ingridents1">2</td>
-                <td>Tassen Gebrochene Spaghetti</td>
-            </tr>
-            <tr id="ingridents2">
-                <td>7</td>
-                <td>mittelgroße Tomaten</td>
-            </tr>
-            <tr id="ingridents3">
-                <td>7</td>
-                <td>hartgekochte Eier</td>
-            </tr>
-            <tr id="ingridents4">
-                <td>1</td>
-                <td>Glas Miracel Whip</td>
-            </tr>
-            <tr id="ingridents5">
-                <td>1/2</td>
-                <td>Becher süße Sahne</td>
-            </tr>
-            <tr>
-                <td id="ingridents6"></td>
-                <td>Ketchup</td>
-            </tr>
-            <tr>
-                <td id="ingridents7"></td>
-                <td>Salz und Pfeffer</td>
-            </tr>
-        </table>
-
-
-
-        <section class="braten_recipe">
-            <h2 class="zubereitung">Zubereitung</h2>
-            <div class="recipe_infos">
-                <p class="header_infos_text"><img class="info_image" src="img/clock-regular.svg">ca. 30 min</p>
-                <p class="header_infos_text"><img class="info_image" src="img/clock-regular.svg">Gesamtzeit ca. 60 min</p>
-            </div>
-
-            <article>
-
-                Die Spaghetti kochen und danach abkühlen lassen. Eine Soße aus Mirakel Whip, süßer Sahne und Ketchup
-                machen.<br> Mit Salz und Pfeffer abschmecken. <br><br>Nachdem die Tomaten klein geschnitten und zugegeben
-                wurden, Eier klein schneiden und ebenfalls dazugeben.<br>
-                Ziehen lassen.<br>
-                Später die kalten Spaghetti in die angerichtete Soße geben, unterrühren und bei Bedarf noch
-                nachwürzen.
-
-            </article>
-        </section>
-
-         <section>
-            <h3>Erstellt von </h3>
-
-            <div class="created_from">
-                <img class="profile_logo" src="img/profile.png" alt="Profilbild">
-                <p>Matthias </p>
-            </div>
+            <table>
+                
+                    <tr>
+                        <td id="ingridents1">2</td>
+                        <td>Tassen Gebrochene Spaghetti</td>
+                    </tr>
+                    <tr id="ingridents2">
+                        <td>7</td>
+                        <td>mittelgroße Tomaten</td>
+                    </tr>
+                    <tr id="ingridents3">
+                        <td>7</td>
+                        <td>hartgekochte Eier</td>
+                    </tr>
+                    <tr id="ingridents4">
+                        <td>1</td>
+                        <td>Glas Miracel Whip</td>
+                    </tr>
+                    <tr id="ingridents5">
+                        <td>1/2</td>
+                        <td>Becher süße Sahne</td>
+                    </tr>
+                    <tr>
+                        <td id="ingridents6"></td>
+                        <td>Ketchup</td>
+                    </tr>
+                    <tr>
+                        <td id="ingridents7"></td>
+                        <td>Salz und Pfeffer</td>
+                    </tr>
+                
+            </table>
 
 
-        </section>
+
+            <section class="braten_recipe">
+                <h2 class="zubereitung">Zubereitung</h2>
+                <div class="recipe_infos">
+                    <p class="header_infos_text"><img class="info_image" src="img/clock-regular.svg">ca. 30 min</p>
+                    <p class="header_infos_text"><img class="info_image" src="img/clock-regular.svg">Gesamtzeit ca. 60
+                        min</p>
+                </div>
+
+                <article>
+
+                    Die Spaghetti kochen und danach abkühlen lassen. Eine Soße aus Mirakel Whip, süßer Sahne und Ketchup
+                    machen.<br> Mit Salz und Pfeffer abschmecken. <br><br>Nachdem die Tomaten klein geschnitten und
+                    zugegeben
+                    wurden, Eier klein schneiden und ebenfalls dazugeben.<br>
+                    Ziehen lassen.<br>
+                    Später die kalten Spaghetti in die angerichtete Soße geben, unterrühren und bei Bedarf noch
+                    nachwürzen.
+
+                </article>
+            </section>
+
+            <section>
+                <h3>Erstellt von </h3>
+
+                <div class="created_from">
+                    <img class="profile_logo" src="img/profile.png" alt="Profilbild">
+                    <p>Matthias </p>
+                </div>
+
+
+            </section>
     </main>
     <footer>
         <div>

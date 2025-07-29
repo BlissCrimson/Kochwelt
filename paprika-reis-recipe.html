@@ -49,45 +49,59 @@
         <section class="ingredientList">
 
             <!--Zutaten-->
-            <table>
-                <div class="potions">
-                    Zutaten für
-                    <div class="potions_input"><input
-                            style="border-color: #EFEFEF; min-height: 28px; border-bottom-left-radius: 8px; border-top-left-radius: 8px;"
-                            startIndex="1" type="number" id="portionen"> <button class="button-recipe-open"
-                            href="#">Portionen</button>
-                    </div>
-                </div>
 
+            <div class="potions"> <!--abgeändert-->
+                Zutaten für
+                <form id="portionInput" class="potions_input"><input min="1" max="20" type="number" value="4"
+                        style="border-color: #EFEFEF; min-height: 28px; border-bottom-left-radius: 8px; border-top-left-radius: 8px; width: 168px;"
+                        startIndex="1" type="number" id="portionen"> <a class="button-recipe-open" href="#"
+                        onsubmit="ingridents()">Portionen</a>
+                </form>
+            </div>
+
+
+            
+            <table>
                 <tr>
-                    <td>3 Zwiebeln</td>
+                    <td id="ingridents1">3</td>
+                    <td>Zwiebeln</td>
                 </tr>
                 <tr>
-                    <td>3 Zehe(n) Knoblauch</td>
+                    <td id="ingridents2">3 </td>
+                    <td> Zehe(n) Knoblauch</td>
                 </tr>
                 <tr>
-                    <td>1,5 Chilischote(n)</td>
+                    <td id="ingridents3">1,5</td>
+                    <td> Chilischote(n)</td>
                 </tr>
                 <tr>
-                    <td>4,5 EL Tomatenmark</td>
+                    <td id="ingridents4">4,5</td>
+                    <td>EL Tomatenmark</td>
                 </tr>
                 <tr>
-                    <td>4,5 Paprikaschote(n)</td>
+                    <td id="ingridents5">4,5</td>
+                    <td>Paprikaschote(n)</td>
                 </tr>
                 <tr>
-                    <td>450g Joghurt</td>
+                    <td id="ingridents6">450g</td>
+                    <td>Joghurt</td>
                 </tr>
                 <tr>
-                    <td>1,5 TL Paprikapulver, edelsüß</td>
+                    <td id="ingridents7">1,5 TL
+                    <td>
+                    </td>Paprikapulver, edelsüß</td>
                 </tr>
                 <tr>
-                    <td>1,5 TL Paprikapulver, rosenscharf</td>
+                    <td id="ingridents8">1,5 TL</td>
+                    <td>Paprikapulver, rosenscharf</td>
                 </tr>
                 <tr>
-                    <td>1,5 Handvoll Basilikum, frisch</td>
+                    <td id="ingridents9">1,5</td>
+                    <td>Handvoll Basilikum, frisch</td>
                 </tr>
                 <tr>
-                    <td>3 Tasse(n) Basmatireis</td>
+                    <td id="ingridents10">3</td>
+                    <td>Tasse(n) Basmatireis</td>
                 </tr>
             </table>
         </section>

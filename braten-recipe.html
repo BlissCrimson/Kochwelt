@@ -32,7 +32,7 @@
             <h1>Klassischer Rinderbraten</h1>
             <img class="recipe_header_img" src="img/braten.jpg" alt="">
             <div class="header_infos">
-                <p class="header_infos_text"><img class="info_image" src="img/clock-regular.svg">30 min</p>
+                <p class="header_infos_text"><img class="info_image" src="img/clock-regular.svg">2 &frac12; std</p>
                 <p class="header_infos_text"><img class="info_image" src="img/brain-solid.svg">normal</p>
                 <p class="header_infos_text"><img class="info_image" src="img/calendar-alt-regular.svg">24.07.2025</p>
             </div>
@@ -53,14 +53,25 @@
 
 
 
-            <div class="potions">
+            <!--<div class="potions">       ursprünglich so 
                 Zutaten für
                 <div class="potions_input"><input
                         style="border-color: #EFEFEF; min-height: 28px; border-bottom-left-radius: 8px; border-top-left-radius: 8px;"
-                        startIndex="1" type="number" id="portionen"> <button class="button-recipe-open"
+                        startIndex="1"  type="number" id="portionen"> <button class="button-recipe-open"
                         href="#">Portionen</button>
                 </div>
+            </div>-->
+
+
+            <div class="potions">           <!--abgeändert-->
+                Zutaten für
+                <form id="portionInput" class="potions_input"><input min="1" max="20" type="number" value="5"
+                        style="border-color: #EFEFEF; min-height: 28px; border-bottom-left-radius: 8px; border-top-left-radius: 8px; width: 168px;"
+                        startIndex="1" type="number" id="portionen"> <a class="button-recipe-open" href="#"
+                        onsubmit="ingridents()">Portionen</a>
+                </form>
             </div>
+
             <table>
 
                 <tr>
@@ -107,8 +118,7 @@
             <h2 class="zubereitung">Zubereitung</h2>
             <div class="recipe_infos">
                 <p class="header_infos_text"><img class="info_image" src="img/clock-regular.svg">ca. 30 min</p>
-                <p class="header_infos_text"><img class="info_image" src="img/clock-regular.svg">Gesamtzeit ca. 2 Std 30
-                    min</p>
+                <p class="header_infos_text"><img class="info_image" src="img/clock-regular.svg">Gesamtzeit ca. 2 &frac12; Std </p>
             </div>
 
             <article>
