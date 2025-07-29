@@ -329,7 +329,7 @@ tr {
 }
 
 table {
-    padding-left: 50px;
+    
     display: flex;
     width: 100%;
     border-collapse: collapse;
