@@ -113,6 +113,11 @@ a {
     background-color: #008000;
     color: white;
     border: 0;
+    padding: 8px 16px;
+    text-align: center;
+    width: 150px;
+    border-radius: 8px;
+    
 }
 
 .button-recipe-open {
@@ -124,7 +129,7 @@ a {
     width: 150px;
 }
 
-                                    /*<button> als tag funktioniert beim link "rezept-öffnen" nicht. bleibt <a>/ deshalb 2.hoverklasse bis ich eine Lösung habe*/
+/*<button> als tag funktioniert beim link "rezept-öffnen" nicht. bleibt <a>/ deshalb 2.hoverklasse bis ich eine Lösung habe*/
 .button-recipe-open:hover {
     text-decoration: underline;
     cursor: pointer;
@@ -165,8 +170,9 @@ button:hover {
     width: 190px;
     object-fit: cover;
 }
-                        /* unsicher ob bilder mit oder ohne hover*/
-.recipe_images:hover{
+
+/* unsicher ob bilder mit oder ohne hover*/
+.recipe_images:hover {
     opacity: 0.4;
 }
 
@@ -242,15 +248,24 @@ button:hover {
     padding-right: 8px;
 }
 
+
+/*contact*/
 .contact-outside {
     background-color: #EFEFEF;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    padding-left: 10px;
+    margin-bottom: 200px;
+
+    /* background-color: #EFEFEF;  vorher
     width: 500px;
     height: 500px;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 200px;
+    margin-bottom: 200px; */
 }
 
 .contact-inside {
@@ -259,8 +274,24 @@ button:hover {
 
 .contact-input {
     width: 370px;
+    height: 24px;
+    border-radius: 10px;
+    border: none;
 }
 
+.contact-input2 {
+    width: 370px;
+    height: 190px;
+    border-radius: 10px;
+    border: none;
+}
+
+.sendbutton {
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
 
 /*braten-recipe*/
 
@@ -329,7 +360,7 @@ tr {
 }
 
 table {
-    
+
     display: flex;
     width: 100%;
     border-collapse: collapse;
