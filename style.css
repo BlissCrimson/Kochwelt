@@ -123,19 +123,14 @@ a {
     width: 150px;
 }
 
-/* that's ok? So become all buttons hover */
+
 button:hover {
     text-decoration: underline;
     cursor: pointer;
     background-color: #28a528;
 }
 
-/* button mit padding// kann man noch entscheiden wie man's genau macht */
-/* .button-recipe-open:hover {
-    text-decoration: underline;
-    cursor: pointer;
-    background-color: #28a528;
-} */
+
 
 .button-contact-formula {
     border-radius: 2px;
