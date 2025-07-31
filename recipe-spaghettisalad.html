@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 
 </head>
 
@@ -18,12 +19,27 @@
         <div class="head_icon_pos">
             <img class="head_icon" src="./img/logo.png" alt="Kochwelticon">
         </div>
+
+        <!--responsive menu*/-->
+        <nav class="sidebar"> <!--Navigationsbar-->
+            <a><img onclick="hideSidebar()" class="sidebar_X" src="img/x_icon.png" alt="close"></a>
+            <a class="sidebar_links" href="index.html">Start</a>
+            <a class="sidebar_links" href="paprika-reis-recipe.html">Rezept des Tages</a>
+            <a class="sidebar_links" href="contact.html">Kontakt</a>
+            <a class="sidebar_links" href="impressum.html">Impressum</a>
+
+        </nav>
+
+
+
         <nav class="navbar"> <!--Navigationsbar-->
             <a class="nav_links" href="index.html">Start</a>
             <a class="nav_links" href="paprika-reis-recipe.html">Rezept des Tages</a>
             <a class="nav_links" href="contact.html">Kontakt</a>
             <a class="nav_links" href="impressum.html">Impressum</a>
+            <a onclick="showSidebar()"><img class="sidebar_img" src="img/sidebar_icon.png" alt="menu"></a>
         </nav>
+
     </header>
 
 
@@ -76,39 +92,40 @@
             <p></p>
         </div>-->
             <!-- preparation -->
-            <!--<div id="recipe-spaghettisalad-ingridents"></div>-->   <!-- muss das drinnen bleiben oder kann ich das löschen ?  -->
+            <!--<div id="recipe-spaghettisalad-ingridents"></div>-->
+            <!-- muss das drinnen bleiben oder kann ich das löschen ?  -->
 
             <table>
-                
-                    <tr>
-                        <td id="ingridents1" class="td1">2</td>
-                        <td class="td2">Tassen Gebrochene Spaghetti</td>
-                    </tr>
-                    <tr>
-                        <td id="ingridents2" class="td1">7</td>
-                        <td class="td2">mittelgroße Tomaten</td>
-                    </tr>
-                    <tr>
-                        <td id="ingridents3" class="td1">7</td>
-                        <td class="td2">hartgekochte Eier</td>
-                    </tr>
-                    <tr>
-                        <td id="ingridents4" class="td1">1</td>
-                        <td class="td2">Glas Miracel Whip</td>
-                    </tr>
-                    <tr>
-                        <td id="ingridents5" class="td1">1/2</td>
-                        <td class="td2">Becher süße Sahne</td>
-                    </tr>
-                    <tr>
-                        <td id="ingridents6" class="td1"></td>
-                        <td class="td2">Ketchup</td>
-                    </tr>
-                    <tr>
-                        <td id="ingridents7" class="td1"></td>
-                        <td class="td2">Salz und Pfeffer</td>
-                    </tr>
-                
+
+                <tr>
+                    <td id="ingridents1" class="td1">2</td>
+                    <td class="td2">Tassen Gebrochene Spaghetti</td>
+                </tr>
+                <tr>
+                    <td id="ingridents2" class="td1">7</td>
+                    <td class="td2">mittelgroße Tomaten</td>
+                </tr>
+                <tr>
+                    <td id="ingridents3" class="td1">7</td>
+                    <td class="td2">hartgekochte Eier</td>
+                </tr>
+                <tr>
+                    <td id="ingridents4" class="td1">1</td>
+                    <td class="td2">Glas Miracel Whip</td>
+                </tr>
+                <tr>
+                    <td id="ingridents5" class="td1">1/2</td>
+                    <td class="td2">Becher süße Sahne</td>
+                </tr>
+                <tr>
+                    <td id="ingridents6" class="td1"></td>
+                    <td class="td2">Ketchup</td>
+                </tr>
+                <tr>
+                    <td id="ingridents7" class="td1"></td>
+                    <td class="td2">Salz und Pfeffer</td>
+                </tr>
+
             </table>
 
 

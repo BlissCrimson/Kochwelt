@@ -19,12 +19,27 @@
         <div class="head_icon_pos">
             <a href="index.html"> <img class="head_icon" src="./img/logo.png" alt="Kochwelticon"></a>
         </div>
-        <nav class="navbar"> <!--Navigationsbar-->
+        
+     <!--responsive menu*/-->
+        <nav class="sidebar"> <!--Navigationsbar-->
+            <a><img onclick="hideSidebar()"  class="sidebar_X" src="img/x_icon.png" alt="close"></a>
+            <a class="sidebar_links" href="index.html">Start</a>
+            <a class="sidebar_links" href="paprika-reis-recipe.html">Rezept des Tages</a>
+            <a class="sidebar_links" href="contact.html">Kontakt</a>
+            <a class="sidebar_links" href="impressum.html">Impressum</a>
+
+        </nav>
+
+
+
+        <nav class="navbar" > <!--Navigationsbar-->
             <a class="nav_links" href="index.html">Start</a>
             <a class="nav_links" href="paprika-reis-recipe.html">Rezept des Tages</a>
             <a class="nav_links" href="contact.html">Kontakt</a>
             <a class="nav_links" href="impressum.html">Impressum</a>
+            <a onclick="showSidebar()"><img class="sidebar_img" src="img/sidebar_icon.png" alt="menu"></a>
         </nav>
+
     </header>
     <main>
         <div class="contact-outside">

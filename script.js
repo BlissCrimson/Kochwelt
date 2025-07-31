@@ -1,5 +1,5 @@
 // function for contact.html
-function sendMail(event){﻿
+function sendMail(event) {
     event.preventDefault();
     const data = new FormData(event.target);
 
@@ -14,4 +14,20 @@ function sendMail(event){﻿
     }).catch((error) => {
         console.log(error);
     });
+}
+
+
+
+// function showSidebar //
+
+
+
+function showSidebar() {
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = "flex"
+}
+
+function hideSidebar() {
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = "none"
 }

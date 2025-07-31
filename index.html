@@ -12,6 +12,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="img/logo_small.png">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -19,12 +20,28 @@
         <div class="head_icon_pos">
             <img class="head_icon" src="./img/logo.png" alt="Kochwelticon">
         </div>
-        <nav class="navbar"> <!--Navigationsbar-->
+
+        <!--responsive menu*/-->
+        <nav class="sidebar"> <!--Navigationsbar-->
+            <a><img onclick="hideSidebar()"  class="sidebar_X" src="img/x_icon.png" alt="close"></a>
+            <a class="sidebar_links" href="index.html">Start</a>
+            <a class="sidebar_links" href="paprika-reis-recipe.html">Rezept des Tages</a>
+            <a class="sidebar_links" href="contact.html">Kontakt</a>
+            <a class="sidebar_links" href="impressum.html">Impressum</a>
+
+        </nav>
+
+
+
+        <nav class="navbar" > <!--Navigationsbar-->
             <a class="nav_links" href="index.html">Start</a>
             <a class="nav_links" href="paprika-reis-recipe.html">Rezept des Tages</a>
             <a class="nav_links" href="contact.html">Kontakt</a>
             <a class="nav_links" href="impressum.html">Impressum</a>
+            <a onclick="showSidebar()"><img class="sidebar_img" src="img/sidebar_icon.png" alt="menu"></a>
         </nav>
+
+
     </header>
 
     <main>
@@ -94,7 +111,8 @@
             <h2>Pfanne vs. Wok - Was ist besser?</h2>
 
             <div class="blog_text">
-                <span>Ob Wok oder Pfanne – beide haben ihre Stärken. Der Wok eignet sich perfekt für schnelle,<br>
+                <span class="blog_span">Ob Wok oder Pfanne – beide haben ihre Stärken. Der Wok eignet sich perfekt für
+                    schnelle,<br>
                     asiatische Gerichte mit viel Hitze und wenig Fett. <br>Die Pfanne punktet mit Vielseitigkeit und
                     eignet sich ideal für Bratkartoffeln,<br> Fleisch oder Spiegeleier. Am Ende zählt: Was willst du
                     kochen?</span>
