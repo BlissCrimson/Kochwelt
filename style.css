@@ -284,9 +284,13 @@ button:hover {
     border: none;
 }
 
-.contact-input2 {
+.contact-message {
     width: 370px;
+    min-width: 370px;
+    max-width: 370px;
     height: 190px;
+    min-height: 190px;
+    max-height: 190px;
     border-radius: 10px;
     border: none;
 }
@@ -295,7 +299,7 @@ button:hover {
     display:flex;
     justify-content: center;
     margin-top: 30px;
-
+    margin-inline: auto;
 }
 
 /*braten-recipe*/
@@ -420,4 +424,13 @@ tr:nth-child(odd) {
 
 .zubereitung {
     margin-bottom: 0px;
+}
+
+.send_mail {
+    margin: 0;
+    height: 582px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
