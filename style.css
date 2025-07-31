@@ -329,10 +329,9 @@ button:hover {
 /*contact*/
 .contact-outside {
     background-color: #EFEFEF;
-    height: 500px;
+    height: 615px;
     border-radius: 10px;
     display: flex;
-    padding-left: 10px;
     margin-bottom: 200px;
 
     /* background-color: #EFEFEF;  vorher
@@ -351,6 +350,12 @@ button:hover {
 
 .contact-inside {
     width: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 
@@ -375,9 +380,10 @@ button:hover {
 .sendbutton {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
-    margin-inline: auto;
+
 }
+
+
 
 /*braten-recipe*/
 
@@ -392,7 +398,7 @@ button:hover {
 
 /*header*/
 
-.head_section{
+.head_section {
     display: flex;
     flex-direction: column;
 }
@@ -539,6 +545,17 @@ tr:nth-child(odd) {
 }
 
 
+/*impressum*/
+
+.impressum_main {
+    max-width: 800px;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: xx-small;
+}
+
 /*Responsiv 1015px*/
 
 @media(max-width:1015px) {
@@ -673,7 +690,11 @@ tr:nth-child(odd) {
 
     /*main page/allgemein */
 
-    main{
+    .head_icon {
+        height: 40px;
+    }
+
+    main {
         margin-top: 50px;
     }
 
@@ -683,7 +704,7 @@ tr:nth-child(odd) {
     }
 
 
-    .header_infos_text{
+    .header_infos_text {
         margin-bottom: 10px;
         margin-top: 20px;
     }
@@ -693,7 +714,7 @@ tr:nth-child(odd) {
         height: unset;
     }
 
-    .dontshow462{
+    .dontshow462 {
         display: none;
     }
 
@@ -734,9 +755,7 @@ tr:nth-child(odd) {
 
     /*rezeptseite*/
 
-    .potions {
-        flex-direction: column;
-    }
+   
 
     .button-recipe-open {
         width: unset;
@@ -746,21 +765,43 @@ tr:nth-child(odd) {
         width: unset;
     }
 
-    .header_infos_text{
+    .header_infos_text {
         font-size: 10px;
     }
 
-    .info_image{
+    .info_image {
         height: 10px;
     }
 
-    .ingredientList{
+    .ingredientList {
         font-size: 13px;
     }
 
-    .input_style{
+    .input_style {
         min-height: 20px;
     }
 
-   
+
+    /*contactseite*/
+
+    .contact-inside {
+        width: 235px;
+    }
+
+    .contact-input {
+        width: 220px;
+    }
+
+    .contact-message {
+        width: unset;
+        min-width: 220px;
+    }
+
+    /*impressum*/
+
+    .generator_results_content {
+        max-width: 270px;
+    }
+
+
 }
