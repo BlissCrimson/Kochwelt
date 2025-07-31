@@ -80,7 +80,7 @@ header {
     font-weight: bold;
     padding-top: 8px;
     padding-bottom: 8px;
-
+    padding-left: 8px;
     display: flex;
 
 }
@@ -88,7 +88,6 @@ header {
 .sidebar_links:hover {
     cursor: pointer;
     color: #008000;
-    text-decoration: underline;
     background-color: #d0dbc8ad;
     text-underline-offset: 10px;
     border-radius: 4px;
@@ -97,7 +96,7 @@ header {
 }
 
 .sidebar {
-    opacity: 95%;
+    opacity: 80%;
     position: fixed;
     top: 0;
     right: 0;
@@ -105,12 +104,13 @@ header {
     width: 250px;
     z-index: 999;
     background-color: #EFEFEF;
+    box-shadow: -10px 0px 10px rgba(0, 0, 0, 27%);
     display: none;
     flex-direction: column;
     padding-top: 36px;
     padding-left: 8px;
     gap: 20px;
-    backdrop-filter: blur(200px);
+    backdrop-filter: blur(10px);
 
 }
 
