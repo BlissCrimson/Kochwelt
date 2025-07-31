@@ -236,12 +236,22 @@ button:hover {
 /* unsicher ob bilder mit oder ohne hover*/
 .recipe_images:hover {
     opacity: 0.4;
+
 }
 
 .recipe-titel {
     color: black;
     font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
+
+.recipe-titel:hover {
+    text-decoration: underline;
+}
+
 
 .headline_tips {
     margin-top: 48px;
@@ -382,6 +392,11 @@ button:hover {
 
 /*header*/
 
+.head_section{
+    display: flex;
+    flex-direction: column;
+}
+
 .recipe_header_img {
     width: 100%;
     max-width: 1000px;
@@ -438,7 +453,17 @@ button:hover {
 .potions_input {
     display: flex;
     border-collapse: collapse;
+
 }
+
+.input_style {
+    border-color: #EFEFEF;
+    min-height: 28px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    width: 168px;
+}
+
 
 
 
@@ -558,14 +583,6 @@ tr:nth-child(odd) {
         height: 60px;
     }
 
-    /*
-    .recipe-img {
-        width: 100%;
-        max-width: 400px;
-
-        object-fit: cover;
-        border-radius: 10px;
-    }*/
 
     .button-recipe-open {
         align-self: center;
@@ -582,7 +599,7 @@ tr:nth-child(odd) {
 
 
 
-@media(max-width:750px) {
+@media(max-width:820px) {
 
     .recipeOfday {
         flex-direction: column;
@@ -590,6 +607,7 @@ tr:nth-child(odd) {
 
     .recipe-img {
         max-width: unset;
+
     }
 
     .recipe_images {
@@ -642,10 +660,107 @@ tr:nth-child(odd) {
         padding-right: 4px;
     }
 
-    .footer_750px{
-        display: flex ;
+    .footer_750px {
+        display: flex;
         justify-content: space-between;
         width: 30%;
-        
+
     }
+}
+
+
+@media(max-width:462px) {
+
+    /*main page/allgemein */
+
+    main{
+        margin-top: 50px;
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+    .header_infos_text{
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .recipe_container {
+        justify-content: center;
+        height: unset;
+    }
+
+    .dontshow462{
+        display: none;
+    }
+
+    .recipe_tips {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .recipe-titel {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .blog_text {
+        flex-direction: column;
+    }
+
+
+    .blog_span {
+        padding: 0px 16px;
+    }
+
+    .logo-Kochwelt-text {
+        display: none;
+    }
+
+    .footer_750px {
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    footer {
+        justify-content: center;
+    }
+
+    /*rezeptseite*/
+
+    .potions {
+        flex-direction: column;
+    }
+
+    .button-recipe-open {
+        width: unset;
+    }
+
+    .input_style {
+        width: unset;
+    }
+
+    .header_infos_text{
+        font-size: 10px;
+    }
+
+    .info_image{
+        height: 10px;
+    }
+
+    .ingredientList{
+        font-size: 13px;
+    }
+
+    .input_style{
+        min-height: 20px;
+    }
+
+   
 }
