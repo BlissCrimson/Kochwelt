@@ -11,6 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="img/logo_small.png">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -27,32 +28,34 @@
     </header>
     <main>
         <div class="contact-outside">
+
             <div class="contact-inside">
-                <form onsubmit="sendMail(event)">
+
+                <form onsubmit="sendMail(event)" action="https://formspree.io/f/mpwlddqo" method="POST">
                     <h2>Kontaktiere uns</h2>
-                    <label for="name">Dein Name:</label>
-                    <br>
-                    <input class="contact-input" id="name" type="text" required>
-                    <br>
-                    <br>
-                    <label for="mail"> Deine E-Mail:</label>
-                    <br>
-                    <input class="contact-input" id="mail" type="email" name="email" required>
+                    <label for="name">
+                        Dein Name:
+                        <br>
+                        <input class="contact-input" type="text" name="your name" required>
+                    </label for="email">
                     <br>
                     <br>
-                    <label for="message"> Deine Nachricht:</label>
+                    <label>
+                        Deine E-Mail:
+                        <br>
+                        <input class="contact-input" type="email" name="email" required>
+                    </label>
                     <br>
-
-
-                    <!--<textarea class="contact-input2" id="message" name="message" maxlength="100" required></textarea>    -->
-                    <input class="contact-input2" id="message" name="message" maxlength="100" required></input>
-                    <!--mit <textarea> war das Eingabefeld beweglich-->
+                    <br>
+                    <label for="message">
+                        Deine Nachricht:
+                        <br>
+                        <textarea class="contact-message" name="message" maxlength="300" required></textarea>
+                    </label>
+                    <br>
+                    <br>
+                    <button class="button sendbutton" type="submit">Abschicken</button>
                 </form>
-
-                <div class="sendbutton">
-                    <!-- your other form fields go here -->
-                    <button class="button" type="submit">Abschicken</button>
-                </div>
 
             </div>
         </div>
