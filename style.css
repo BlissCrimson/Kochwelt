@@ -478,7 +478,7 @@ tr:nth-child(odd) {
     }
 
     .main-right {
-        gap: 30px;
+        
 
         text-align: left;
     }
@@ -520,5 +520,5 @@ tr:nth-child(odd) {
 
 
 @media(max-width:795px){
-    
+
 }
