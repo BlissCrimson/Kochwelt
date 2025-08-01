@@ -136,6 +136,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+
 }
 
 
@@ -535,13 +536,24 @@ tr:nth-child(odd) {
     margin-bottom: 0px;
 }
 
+/* send mail  height: 582px*/
+
 .send_mail {
-    margin: 0;
-    height: 582px;
+    text-align: center;
+    max-width: 300px;
+    background-color: #EFEFEF;
+    border: #403B3B;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 27%);
+    border-radius: 16px;
+}
+
+
+.sendbox_container {
+    height: 65vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-
+    align-items: baseline;
+    
 }
 
 
@@ -555,6 +567,8 @@ tr:nth-child(odd) {
     padding-right: 16px;
     font-size: xx-small;
 }
+
+
 
 /*Responsive*/
 
@@ -755,7 +769,7 @@ tr:nth-child(odd) {
 
     /*rezeptseite*/
 
-   
+
 
     .button-recipe-open {
         width: unset;
