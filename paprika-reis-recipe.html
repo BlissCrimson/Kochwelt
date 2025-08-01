@@ -71,8 +71,16 @@
             <div class="potions"> <!--abgeändert-->
                 Zutaten für
                 <form id="portionInput" class="potions_input"><input class="input_style" min="1" max="20" type="number"
-                        value="4" startIndex="1" type="number" id="portionen"> <a class="button-recipe-open" href="#"
-                        onsubmit="ingridents()">Portionen</a>
+                        value="4" startIndex="1" type="number" id="portionen"> 
+                    
+            <!-- Alte Version
+                        <a class="button-recipe-open" href="#"
+                        onsubmit="ingridents()">Portionen</a> 
+                        -->
+
+                        <!--NEU!!! Abänderung des Buttons für Javascript-Integration-->
+                        <button onclick="getValue()" class="button-recipe-open">Portionen</button>
+                    
                 </form>
             </div>
 
