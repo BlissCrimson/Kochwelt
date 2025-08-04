@@ -149,6 +149,7 @@ footer {
     align-items: center;
     gap: 8px;
 }
+
 /* head-main*/
 
 .recipeOfday {
@@ -327,7 +328,7 @@ button:hover {
 
 .logo-socialmedia {
     height: 48px;
-    
+
 }
 
 .logo-socialmedia-small {
@@ -562,7 +563,7 @@ tr:nth-child(odd) {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    
+
 }
 
 
@@ -704,7 +705,10 @@ tr:nth-child(odd) {
         display: flex;
         justify-content: space-between;
         width: 30%;
+    }
 
+    .footer-social-icons {
+        display: none;
     }
 }
 
@@ -774,6 +778,10 @@ tr:nth-child(odd) {
 
     footer {
         justify-content: center;
+    }
+
+    .footer-social-icons {
+        display: none;
     }
 
     /*rezeptseite*/
