@@ -13,13 +13,13 @@
 </head>
 
 <body style="align-items: center;">
-    <header id="home"> <!--Header-->
+    <div class="header_content">
         <div class="head_icon_pos">
             <img class="head_icon" src="./img/logo.png" alt="Kochwelticon">
         </div>
 
         <!--responsive menu*/-->
-         <nav class="sidebar"> <!--Navigationsbar-->
+        <nav class="sidebar"> <!--Navigationsbar-->
             <a><img onclick="hideSidebar()" class="sidebar_X" src="img/x_icon.png" alt="close"></a>
             <a class="sidebar_links" href="index.html">Start</a>
             <a class="sidebar_links" href="paprika-reis-recipe.html">Rezept des Tages</a>
@@ -35,10 +35,12 @@
         <nav class="navbar"> <!--Navigationsbar-->
             <a class="nav_links" href="index.html">Start</a>
             <a class="nav_links" href="paprika-reis-recipe.html">Rezept des Tages</a>
+
             <a class="nav_links" href="contact.html">Kontakt</a>
             <a class="nav_links" href="impressum.html">Impressum</a>
             <a onclick="showSidebar()"><img class="sidebar_img" src="img/sidebar_icon.png" alt="menu"></a>
         </nav>
+    </div>
 
     </header>
 
@@ -79,9 +81,9 @@
         <section>
             <div class="potions">
                 Zutaten für
-                <form id="portionInput" class="potions_input"><input class="input_style" min="1" max="20" type="number" value="4"
-                        startIndex="1" type="number" id="portionen">
-                        <button onclick="getValue_salad_recipe()" class="button-recipe-open">Portionen</button>
+                <form id="portionInput" class="potions_input"><input class="input_style" min="1" max="20" type="number"
+                        value="4" startIndex="1" type="number" id="portionen">
+                    <button onclick="getValue_salad_recipe()" class="button-recipe-open">Portionen</button>
                 </form>
             </div>
 
