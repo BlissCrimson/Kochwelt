@@ -58,10 +58,9 @@ function getValue_braten_recipe(){
     //Berechnung
     for (i = 0; i < 6; i++) {  //for-Schleife: Anfang: Array[0], Läuft bis Array[9], Erhöhung um 1 im Array bei jedem Durchgang
         y = x_string * ingredients[i];   //Berechnung der Mengen; i beschreibt den Ablauf im Array, zutaten[i] wird in jeden Durchlauf neu initialisiert (neuer Wert); y wird immer wieder überschrieben
-        console.log(y);
-        y_string = y.toString();    //Umwandlung von Number in String
-        y_new_string = y_string.replace('.', ',');  //Ersetzen eines alten Strings durch einen neuen String (Punkt durch Komma ersetzt)
-        ingredients_new[i] = y_new_string;  //Zuweisung der neuen Zutatenanzahl an einem neuen Array
+        y = y.toFixed(2);   //Konvertiert die Zahl zu einem String mit einer festgelegten Anzahl von Nachkommastellen
+        y = y.replace('.', ',');  //Ersetzen eines alten Strings durch einen neuen String (Punkt durch Komma ersetzt)
+        ingredients_new[i] = y;  //Zuweisung der neuen Zutatenanzahl an einem neuen Array
     }
 
     //Überschreibung der Zutatenmenge
@@ -99,9 +98,9 @@ function getValue_paprikapfanne_recipe() {
     //Berechnung
     for (i = 0; i < 10; i++) {
         y = x_string * ingredients[i];
-        y_string = y.toString();
-        y_new_string = y_string.replace('.', ',');
-        ingredients_new[i] = y_new_string;
+        y = y.toFixed(2);
+        y = y.replace('.', ',');
+        ingredients_new[i] = y;
     }
 
     //Überschreibung der Zutatenmenge
@@ -139,10 +138,11 @@ function getValue_salad_recipe(){
 
     //Berechnung
     for (i = 0; i < 6; i++) { 
-        y = x_string * ingredients[i];   
-        y_string = y.toString();    
-        y_new_string = y_string.replace('.', ','); 
-        ingredients_new[i] = y_new_string;  
+        y = x_string * ingredients[i];  
+        y = y.toFixed(2); 
+        y = y.toString();    
+        y  = y.replace('.', ','); 
+        ingredients_new[i] = y;  
     }
 
     //Überschreibung der Zutatenmenge
