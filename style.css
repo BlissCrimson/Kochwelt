@@ -1,3 +1,13 @@
+/* raleway-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/raleway-v36-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
 body {
     font-family: "Raleway";
     margin: 0px;
@@ -178,7 +188,7 @@ footer {
 
 a {
     text-decoration: none;
-
+    cursor: pointer;
 }
 
 .button {
@@ -188,7 +198,7 @@ a {
     padding: 8px 16px;
     text-align: center;
     width: 150px;
-    
+    cursor: pointer;
 
 }
 
@@ -199,19 +209,18 @@ a {
     padding: 8px 16px;
     text-align: center;
     width: 150px;
+    cursor: pointer;
 }
 
 /*<button> als tag funktioniert beim link "rezept-öffnen" nicht. bleibt <a>/ deshalb 2.hoverklasse bis ich eine Lösung habe*/
 .button-recipe-open:hover {
     text-decoration: underline;
-    cursor: pointer;
     background-color: #28a528;
 }
 
 
 button:hover {
     text-decoration: underline;
-    cursor: pointer;
     background-color: #28a528;
 }
 
@@ -229,7 +238,7 @@ button:hover {
     background-color: #EFEFEF;
     display: flex;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 .recipe_container {
