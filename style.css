@@ -4,7 +4,6 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
     scroll-behavior: smooth;
 }
 
@@ -225,14 +224,21 @@ button:hover {
 
 /*Lust auf was Neues ?*/
 
+.recipe_section {
+    width: 100%;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
 .recipe_container {
     display: flex;
     flex-direction: column;
     align-items: normal;
     text-align: center;
     background-color: #EFEFEF;
-    margin-top: 64px;
-    width: 100%;
+    width: 1440px;
     height: 406px;
 }
 
@@ -340,10 +346,12 @@ button:hover {
 /*contact*/
 .contact-outside {
     background-color: #EFEFEF;
-    height: 615px;
+    height: 565px;
     border-radius: 10px;
     display: flex;
     margin-bottom: 200px;
+    align-self: center;
+    width: 430px;
 
     /* background-color: #EFEFEF;  vorher
     width: 500px;
