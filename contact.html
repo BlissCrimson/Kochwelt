@@ -41,43 +41,46 @@
         </div>
     </header>
 
+    <div style="padding-bottom: 120px;">
 
-    </header>
-    <main>
-        <div class="contact-outside">
+        </header>
+        <main>
+            <div class="contact-outside">
 
-            <div>
+                <div>
 
-                <form class="contact-inside" onsubmit="sendMail(event)" action="https://formspree.io/f/mpwlddqo"
-                    method="POST">
-                    <h2>Kontaktiere uns</h2>
-                    <label for="name">
-                        Dein Name:
+                    <form class="contact-inside" onsubmit="sendMail(event)" action="https://formspree.io/f/mpwlddqo"
+                        method="POST">
+                        <h2>Kontaktiere uns</h2>
+                        <label for="name">
+                            Dein Name:
+                            <br>
+                            <input class="contact-input" type="text" name="your name" required>
+                        </label for="email">
                         <br>
-                        <input class="contact-input" type="text" name="your name" required>
-                    </label for="email">
-                    <br>
-                    <br>
-                    <label>
-                        Deine E-Mail:
                         <br>
-                        <input class="contact-input" type="email" name="email" required>
-                    </label>
-                    <br>
-                    <br>
-                    <label for="message">
-                        Deine Nachricht:
+                        <label>
+                            Deine E-Mail:
+                            <br>
+                            <input class="contact-input" type="email" name="email" required>
+                        </label>
                         <br>
-                        <textarea class="contact-message" name="message" maxlength="300" required></textarea>
-                    </label>
-                    <br>
-                    <br>
-                    <button class="button sendbutton" type="submit">Abschicken</button>
-                </form>
+                        <br>
+                        <label for="message">
+                            Deine Nachricht:
+                            <br>
+                            <textarea class="contact-message" name="message" maxlength="300" required></textarea>
+                        </label>
+                        <br>
+                        <br>
+                        <button class="button sendbutton" type="submit">Abschicken</button>
+                    </form>
 
+                </div>
             </div>
-        </div>
-    </main>
+        </main>
+
+    </div>
 
     <footer>
         <div class="footer_content">

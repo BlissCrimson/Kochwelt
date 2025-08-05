@@ -20,12 +20,14 @@ body {
     justify-content: center;
     flex-direction: column;
     scroll-behavior: smooth;
+    position: relative;
+    min-height: 100vh;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 155px;
 }
 
 h3 {
@@ -44,6 +46,8 @@ header {
     justify-content: center;
     background-color: white;
     filter: drop-shadow(0px 0px 3px gray);
+    position: absolute;
+    top:0px;
 }
 
 .header_content {
@@ -153,6 +157,8 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
+    position: absolute;
+    bottom: 0px;
     
 }
 
@@ -367,7 +373,7 @@ button:hover {
     height: 565px;
     border-radius: 10px;
     display: flex;
-    margin-bottom: 200px;
+    margin-bottom: 74px;
     align-self: center;
     max-width: 430px;
 }
