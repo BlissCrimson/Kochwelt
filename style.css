@@ -22,7 +22,6 @@ body {
 main {
     display: flex;
     flex-direction: column;
-
     margin-top: 100px;
 }
 
@@ -49,7 +48,6 @@ header {
     max-width: 1440px;
     display: flex;
     justify-content: space-between;
-
 }
 
 .head_icon_pos {
@@ -101,7 +99,6 @@ header {
     padding-bottom: 8px;
     padding-left: 8px;
     display: flex;
-
 }
 
 .sidebar_links:hover {
@@ -130,14 +127,12 @@ header {
     padding-left: 8px;
     gap: 20px;
     backdrop-filter: blur(10px);
-
 }
 
 
 .sidebar_img {
     height: 40px;
     display: none;
-
 }
 
 
@@ -155,8 +150,6 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
- 
-
 }
 
 .footer_content {
@@ -203,7 +196,6 @@ footer {
     max-width: 533px;
     object-fit: cover;
     border-radius: 10px;
-
 }
 
 a {
@@ -219,7 +211,6 @@ a {
     text-align: center;
     width: 150px;
     cursor: pointer;
-
 }
 
 .button-recipe-open {
@@ -243,8 +234,6 @@ button:hover {
     text-decoration: underline;
     background-color: #28a528;
 }
-
-
 
 .button-contact-formula {
     border-radius: 2px;
@@ -282,7 +271,6 @@ button:hover {
 /* unsicher ob bilder mit oder ohne hover*/
 .recipe_images:hover {
     opacity: 0.4;
-
 }
 
 .recipe-titel {
@@ -297,7 +285,6 @@ button:hover {
 .recipe-titel:hover {
     text-decoration: underline;
 }
-
 
 .headline_tips {
     margin-top: 48px;
@@ -334,14 +321,7 @@ button:hover {
     text-decoration: none;
 }
 
-
 /*                    */
-
-.button-contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .recipe-div-icon {
     background-color: #EFEFEF;
@@ -363,7 +343,6 @@ button:hover {
 
 .logo-socialmedia {
     height: 48px;
-
 }
 
 .logo-socialmedia-small {
@@ -381,15 +360,6 @@ button:hover {
     margin-bottom: 200px;
     align-self: center;
     max-width: 430px;
-
-    /* background-color: #EFEFEF;  vorher
-    width: 500px;
-    height: 500px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 200px; */
 }
 
 .table-container {
@@ -404,7 +374,6 @@ button:hover {
     flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;
-
 }
 
 .contact-input {
@@ -428,7 +397,7 @@ button:hover {
 .sendbutton {
     display: flex;
     justify-content: center;
-
+    border-radius: 5px;
 }
 
 
@@ -459,7 +428,7 @@ button:hover {
     border-radius: 10px;
 }
 
-.recipe_header_spaghetti{
+.recipe_header_spaghetti {
     width: 1000px;
 }
 
@@ -504,7 +473,6 @@ button:hover {
 .potions_input {
     display: flex;
     border-collapse: collapse;
-
 }
 
 .input_style {
@@ -593,7 +561,6 @@ tr:nth-child(odd) {
     display: flex;
     justify-content: center;
     align-items: baseline;
-
 }
 
 
@@ -619,7 +586,7 @@ tr:nth-child(odd) {
         padding: 0px 16px;
     }
 
-    .recipe_header_spaghetti{
+    .recipe_header_spaghetti {
         width: 100%;
     }
 
@@ -676,7 +643,7 @@ tr:nth-child(odd) {
         margin-left: 16px;
     }
 
-    .footer_content{
+    .footer_content {
         padding: 0px 61px;
     }
 }
@@ -754,7 +721,7 @@ tr:nth-child(odd) {
         display: none;
     }
 
-    .footer_content{
+    .footer_content {
         padding: 0 48px;
     }
 }
