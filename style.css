@@ -57,7 +57,7 @@ header {
     /*Positionierung des Header-Icons*/
     display: flex;
     align-items: center;
-    padding-left: 120px;
+    padding-left: 65px;
 }
 
 .head_icon {
@@ -70,7 +70,7 @@ header {
     display: flex;
     align-items: flex-end;
     gap: 20px;
-    padding-right: 120px;
+    padding-right: 50px;
     padding-bottom: 10px;
 
 }
@@ -417,8 +417,8 @@ button:hover {
     flex-direction: column;
     gap: 16px;
     max-width: 1440px;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left: 140px;
+    margin-right: 140px;
 }
 
 
@@ -588,6 +588,14 @@ tr:nth-child(odd) {
 /*Responsive*/
 
 @media(max-width:1015px) {
+
+    .recipe_main {
+        flex-direction: column;
+        gap: 16px;
+        max-width: 1440px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 
     .header_content {
         height: 100%;
