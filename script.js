@@ -38,7 +38,7 @@ function hideSidebar() {
 function getValue_braten_recipe() {
     event.preventDefault(); //Bricht das Ereignis zur gehörenden Standardaktion ab, in dem Fall verhindert es ein Absenden eines Formulars
     //Deklaration
-    let i, y, y_string, y_new_string;       //Erforderliche Variablen
+    let i, y;       //Erforderliche Variablen
     let x;                                  //Variable für ID
     let x_string;                           //Variable für String-Number-Umwandlung
     const ingredients = [];                 //Array für 1 Portionenangabe
@@ -86,7 +86,7 @@ function getValue_braten_recipe() {
 
 function getValue_paprikapfanne_recipe() {
     event.preventDefault();
-    let i, y, y_string, y_new_string;
+    let i, y;
     let x;
     let x_string;
     const ingredients = [];
@@ -144,7 +144,7 @@ function getValue_paprikapfanne_recipe() {
 function getValue_salad_recipe() {
     event.preventDefault();
     //Deklaration
-    let i, y, y_string, y_new_string;
+    let i, y;
     let x;
     let x_string;
     const ingredients = [];
