@@ -82,23 +82,13 @@
         <section>
             <div class="potions">
                 Zutaten für
-                <form id="portionInput" class="potions_input"><input class="input_style" min="1" max="20" type="number"
-                        value="4" startIndex="1" type="number" id="portionen">
+                <form id="portionInput" class="potions_input">
+                    <input class="input_style" id="portionen" type="number" min="1" max="20" value="4" startIndex="1" required>
                     <button onclick="getValue_salad_recipe()" class="button-recipe-open">Portionen</button>
                 </form>
             </div>
 
-
-            <!-- List -->
-            <!-- <div id="ingridents-spaghettisalad">
-            <p></p>
-        </div>-->
-            <!-- preparation -->
-            <!--<div id="recipe-spaghettisalad-ingridents"></div>-->
-            <!-- muss das drinnen bleiben oder kann ich das löschen ?  -->
-
             <table>
-
                 <tr>
                     <td id="ingridents1" class="td1">2</td>
                     <td class="td2">Tassen Gebrochene Spaghetti</td>
@@ -127,10 +117,7 @@
                     <td id="ingridents7" class="td1"></td>
                     <td class="td2">Salz und Pfeffer</td>
                 </tr>
-
             </table>
-
-
 
             <section class="braten_recipe">
                 <h2 class="zubereitung">Zubereitung</h2>
@@ -160,7 +147,6 @@
                     <img class="profile_logo" src="img/profile.png" alt="Profilbild">
                     <p>Matthias </p>
                 </div>
-
 
             </section>
     </main>
@@ -193,14 +179,4 @@
 
     </footer>
 </body>
-<script>
-    // ingridents quantities for 4 portions
-    // 2
-    // 7
-    // 7
-    // 1
-    // 1/2 / 0.5
-
-</script>
-
 </html>
