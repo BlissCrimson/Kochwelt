@@ -309,7 +309,9 @@ button:hover {
     align-items: flex-start;
     margin-bottom: 72px;
     gap: 32px;
+    max-width: 1440px;
     margin-top: 32px;
+    padding: 0 140px;
 }
 
 .wok_img {
