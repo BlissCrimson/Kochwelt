@@ -45,7 +45,7 @@ function getValue_braten_recipe() {
     let ingredients_new = [];               //Array für neue Zutatenanzahl
 
     //Initialisierung
-    ingredients[0] = 0.3;    //Rinderfleisch in kg
+    ingredients[0] = 300;    //Rinderfleisch in g
     ingredients[1] = 0.8;    //Knoblauch
     ingredients[2] = 0.6;    //Zwiebeln
     ingredients[3] = 26;     //Rotwein in ml
@@ -108,7 +108,7 @@ function getValue_paprikapfanne_recipe() {
     x_string = x.value;
     if (x_string < 1 || x_string > 20) {
         alert('Bitte gebe eine Zahl zwischen 1 und 20 ein');
-        x.value = 5;
+        x.value = 4;
         x_string = x.value;
         calculation(x_string);
     }
