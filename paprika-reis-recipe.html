@@ -18,34 +18,35 @@
 </head>
 
 <body style="align-items: center;">
-    <div class="header_content">
-        <div class="head_icon_pos">
-            <img class="head_icon" src="./img/logo.png" alt="Kochwelticon">
+    <header>
+        <div class="header_content">
+            <div class="head_icon_pos">
+                <img class="head_icon" src="./img/logo.png" alt="Kochwelticon">
+            </div>
+
+            <!--responsive menu*/-->
+            <nav class="sidebar"> <!--Navigationsbar-->
+                <a><img onclick="hideSidebar()" class="sidebar_X" src="img/x_icon.png" alt="close"></a>
+                <a class="sidebar_links" href="index.html">Start</a>
+                <a class="sidebar_links" href="paprika-reis-recipe.html">Rezept des Tages</a>
+                <a class="sidebar_links" href="braten-recipe.html">Rinderbraten</a>
+                <a class="sidebar_links" href="paprika-reis-recipe.html">Paprika-Reispfanne</a>
+                <a class="sidebar_links" href="recipe-spaghettisalad.html">Spaghettisalat</a>
+                <a class="sidebar_links" href="contact.html">Kontakt</a>
+                <a class="sidebar_links" href="impressum.html">Impressum</a>
+            </nav>
+
+
+
+            <nav class="navbar"> <!--Navigationsbar-->
+                <a class="nav_links" href="index.html">Start</a>
+                <a class="nav_links" href="paprika-reis-recipe.html">Rezept des Tages</a>
+
+                <a class="nav_links" href="contact.html">Kontakt</a>
+                <a class="nav_links" href="impressum.html">Impressum</a>
+                <a onclick="showSidebar()"><img class="sidebar_img" src="img/sidebar_icon.png" alt="menu"></a>
+            </nav>
         </div>
-
-        <!--responsive menu*/-->
-        <nav class="sidebar"> <!--Navigationsbar-->
-            <a><img onclick="hideSidebar()" class="sidebar_X" src="img/x_icon.png" alt="close"></a>
-            <a class="sidebar_links" href="index.html">Start</a>
-            <a class="sidebar_links" href="paprika-reis-recipe.html">Rezept des Tages</a>
-            <a class="sidebar_links" href="braten-recipe.html">Rinderbraten</a>
-            <a class="sidebar_links" href="paprika-reis-recipe.html">Paprika-Reispfanne</a>
-            <a class="sidebar_links" href="recipe-spaghettisalad.html">Spaghettisalat</a>
-            <a class="sidebar_links" href="contact.html">Kontakt</a>
-            <a class="sidebar_links" href="impressum.html">Impressum</a>
-        </nav>
-
-
-
-        <nav class="navbar"> <!--Navigationsbar-->
-            <a class="nav_links" href="index.html">Start</a>
-            <a class="nav_links" href="paprika-reis-recipe.html">Rezept des Tages</a>
-
-            <a class="nav_links" href="contact.html">Kontakt</a>
-            <a class="nav_links" href="impressum.html">Impressum</a>
-            <a onclick="showSidebar()"><img class="sidebar_img" src="img/sidebar_icon.png" alt="menu"></a>
-        </nav>
-    </div>
 
     </header>
 
