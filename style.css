@@ -677,6 +677,10 @@ tr:nth-child(odd) {
     .blog_text {
         margin-left: 16px;
     }
+
+    .footer_content{
+        padding: 0px 61px;
+    }
 }
 
 
@@ -750,6 +754,10 @@ tr:nth-child(odd) {
 
     .footer-social-icons {
         display: none;
+    }
+
+    .footer_content{
+        padding: 0 48px;
     }
 }
 
