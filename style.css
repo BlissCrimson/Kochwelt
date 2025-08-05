@@ -575,7 +575,6 @@ tr:nth-child(odd) {
 
 .impressum_main {
     max-width: 800px;
-    text-align: center;
     flex-wrap: wrap;
     padding-left: 16px;
     padding-right: 16px;
