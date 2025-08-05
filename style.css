@@ -459,6 +459,9 @@ button:hover {
     border-radius: 10px;
 }
 
+.recipe_header_spaghetti{
+    width: 1000px;
+}
 
 .header_infos {
     display: flex;
@@ -615,6 +618,11 @@ tr:nth-child(odd) {
         height: 100%;
         padding: 0px 16px;
     }
+
+    .recipe_header_spaghetti{
+        width: 100%;
+    }
+
 
     .table-container {
         width: unset;
