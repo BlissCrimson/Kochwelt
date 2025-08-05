@@ -769,12 +769,17 @@ tr:nth-child(odd) {
     }
 
     main {
-        margin-top: 50px;
+        margin-top: 132px;
     }
 
     h2 {
         text-align: center;
         margin-top: 20px;
+    }
+
+    .recipe_main{
+        margin-left: 8px;
+        margin-right: 8px;
     }
 
 
