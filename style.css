@@ -9,6 +9,9 @@
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+a{
+    cursor: pointer;
+}
 
 body {
     font-family: "Raleway";
