@@ -57,7 +57,7 @@ header {
     /*Positionierung des Header-Icons*/
     display: flex;
     align-items: center;
-    padding-left: 65px;
+    padding-left: 136px;
 }
 
 .head_icon {
@@ -70,7 +70,7 @@ header {
     display: flex;
     align-items: flex-end;
     gap: 20px;
-    padding-right: 50px;
+    padding-right: 116px;
     padding-bottom: 10px;
 
 }
@@ -156,7 +156,7 @@ footer {
 }
 
 .footer_content {
-    max-width: 1440px;
+    max-width: 1145px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -309,7 +309,7 @@ button:hover {
     align-items: flex-start;
     margin-bottom: 72px;
     gap: 32px;
-    max-width: 1440px;
+    max-width: 1145px;
     margin-top: 32px;
     padding: 0 140px;
 }
@@ -416,7 +416,7 @@ button:hover {
 .recipe_main {
     flex-direction: column;
     gap: 16px;
-    max-width: 1440px;
+    max-width: 1145px;
     margin-left: 140px;
     margin-right: 140px;
 }
