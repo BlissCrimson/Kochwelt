@@ -63,8 +63,8 @@
 
             <div class="potions"> <!--abgeändert-->
                 Zutaten für
-                <form id="portionInput" class="potions_input"><input class="input_style" min="1" max="20" type="number"
-                        value="4" startIndex="1" type="number" id="portionen">
+                <form id="portionInput" class="potions_input">
+                    <input class="input_style" id="portionen" type="number" min="1" max="20" value="4" startIndex="1">
                     <button onclick="getValue_paprikapfanne_recipe()" class="button-recipe-open">Portionen</button>
                 </form>
             </div>
@@ -113,10 +113,9 @@
             </table>
         </section>
 
-
         <!--Zubereitung-->
-        <section>
-            <h2>Zubereitung</h2>
+        <section class="braten-recipe">
+            <h2 class="zubereitung">Zubereitung</h2>
             <div class="recipe_infos">
                 <p class="header_infos_text"><img class="info_image" src="img/clock-regular.svg">ca. 25 min</p>
                 <p class="header_infos_text"><img class="info_image" src="img/clock-regular.svg">Gesamtzeit ca. 45 min
@@ -128,21 +127,25 @@
                 hacken. Die Paprikaschoten putzen und würfeln.<br> Die Zwiebeln fein
                 würfeln und in einer Pfanne in etwas Öl glasig dünsten. Den
                 gepressten Knoblauch, die Chilischote und das Tomatenmark
-                hinzugeben und kurz mit anschwitzen. <br>Die Paprikawürfel in die
+                hinzugeben und kurz mit anschwitzen.
+                <br>
+                Die Paprikawürfel in die
                 Pfanne geben und ein paar Minuten lang anbraten, dabei ab und zu
-                die Pfanne schwenken.<br>Den Joghurt hinzufügen, verrühren und alles
-                mit Paprikapulver, Salz und Pfeffer würzen.<br>
+                die Pfanne schwenken.
+                <br>
+                Den Joghurt hinzufügen, verrühren und alles
+                mit Paprikapulver, Salz und Pfeffer würzen.
+                <br>
                 Zu guter Letzt den Reis hinzugeben, untermengen und heiß werden lassen. Danach die
                 Kräuter hacken und untermischen.
             </article>
-
         </section>
 
         <section>
             <h3>Rezept erstellt von</h3>
             <div class="created_from">
                 <img class="profile_logo" src="img/profile.png" alt="Profilbild">
-                <p class="name">Morris</p>
+                <p>Morris</p>
             </div>
         </section>
     </main>
@@ -150,7 +153,6 @@
     <footer>
         <div class="footer_content">
             <a href="#home"> <img class="logo-Kochwelt-text" src="./img/logo.png" alt="Logo Kochwelt" /></a>
-
 
             <!--responsive links-->
             <div class="footer_750px">
@@ -172,11 +174,7 @@
                         src="./img/follow-us-on-twitter.svg" alt="follow us on twitter"></a>
             </div>
         </div>
-
     </footer>
-
-
-
 </body>
 
 </html>

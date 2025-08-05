@@ -56,25 +56,15 @@
         </div>
 
         <!-- portions -->
-        <!-- <div>
-            <form class="potions" action="">
-                <label for="portionInput">Zutaten für</label>
-                <input id="portionInput" min="1" max="20" type="number" value="4">
-                <input id="portionInput" class="button" type="submit" value="Portionen" onsubmit="ingridents()">
-            </form>
 
-        </div>
-        -->
+        <section class="ingridentsList">
 
+            <!-- Zutaten -->
 
-        <!-- id und andere parameter mit eingebaut  und auf allen seiten angepasst-->
-
-        <section>
-            <div class="potions">
+            <div class="potions"> <!--abgeändert-->
                 Zutaten für
                 <form id="portionInput" class="potions_input">
-                    <input class="input_style" id="portionen" type="number" min="1" max="20" value="4" startIndex="1"
-                        required>
+                    <input class="input_style" id="portionen" type="number" min="1" max="20" value="4" startIndex="1">
                     <button onclick="getValue_salad_recipe()" class="button-recipe-open">Portionen</button>
                 </form>
             </div>
@@ -109,43 +99,40 @@
                     <td class="td2">Salz und Pfeffer</td>
                 </tr>
             </table>
+        </section>
 
-            <section class="braten_recipe">
-                <h2 class="zubereitung">Zubereitung</h2>
-                <div class="recipe_infos">
-                    <p class="header_infos_text"><img class="info_image" src="img/clock-regular.svg">ca. 30 min</p>
-                    <p class="header_infos_text"><img class="info_image" src="img/clock-regular.svg">Gesamtzeit ca. 60
-                        min</p>
-                </div>
+        <!-- Zubereitung -->
+        <section class="braten_recipe">
+            <h2 class="zubereitung">Zubereitung</h2>
+            <div class="recipe_infos">
+                <p class="header_infos_text"><img class="info_image" src="img/clock-regular.svg">ca. 30 min</p>
+                <p class="header_infos_text"><img class="info_image" src="img/clock-regular.svg">Gesamtzeit ca. 60
+                    min</p>
+            </div>
 
-                <article>
+            <article>
+                Die Spaghetti kochen und danach abkühlen lassen. Eine Soße aus Mirakel Whip, süßer Sahne und Ketchup
+                machen.<br> Mit Salz und Pfeffer abschmecken. <br><br>Nachdem die Tomaten klein geschnitten und
+                zugegeben
+                wurden, Eier klein schneiden und ebenfalls dazugeben.<br>
+                Ziehen lassen.<br>
+                Später die kalten Spaghetti in die angerichtete Soße geben, unterrühren und bei Bedarf noch
+                nachwürzen.
+            </article>
+        </section>
 
-                    Die Spaghetti kochen und danach abkühlen lassen. Eine Soße aus Mirakel Whip, süßer Sahne und Ketchup
-                    machen.<br> Mit Salz und Pfeffer abschmecken. <br><br>Nachdem die Tomaten klein geschnitten und
-                    zugegeben
-                    wurden, Eier klein schneiden und ebenfalls dazugeben.<br>
-                    Ziehen lassen.<br>
-                    Später die kalten Spaghetti in die angerichtete Soße geben, unterrühren und bei Bedarf noch
-                    nachwürzen.
-
-                </article>
-            </section>
-
-            <section>
-                <h3>Erstellt von </h3>
-
-                <div class="created_from">
-                    <img class="profile_logo" src="img/profile.png" alt="Profilbild">
-                    <p>Matthias </p>
-                </div>
-
-            </section>
+        <section>
+            <h3>Erstellt von </h3>
+            <div class="created_from">
+                <img class="profile_logo" src="img/profile.png" alt="Profilbild">
+                <p>Matthias </p>
+            </div>
+        </section>
     </main>
 
     <footer>
         <div class="footer_content">
             <a href="#home"> <img class="logo-Kochwelt-text" src="./img/logo.png" alt="Logo Kochwelt" /></a>
-
 
             <!--responsive links-->
             <div class="footer_750px">
@@ -167,7 +154,6 @@
                         src="./img/follow-us-on-twitter.svg" alt="follow us on twitter"></a>
             </div>
         </div>
-
     </footer>
 </body>
 
