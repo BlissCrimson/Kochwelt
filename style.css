@@ -9,7 +9,7 @@
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-a{
+a {
     cursor: pointer;
 }
 
@@ -306,14 +306,14 @@ button:hover {
 
 .blog_text {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 72px;
     gap: 32px;
     margin-top: 32px;
 }
 
 .wok_img {
-    height: 150px;
+    height: 190px;
     border-radius: 8px;
 }
 
@@ -322,6 +322,10 @@ button:hover {
     margin-bottom: 64px;
     justify-content: space-around;
     text-decoration: none;
+}
+
+.blog_span {
+    padding-top: 20px;
 }
 
 /*                    */
