@@ -635,11 +635,11 @@ tr:nth-child(odd) {
     }
 
     .navbar {
-        margin-right: 50px;
+        padding-right: 50px;
     }
 
     .head_icon_pos {
-        margin-left: 50px;
+        padding-left: 50px;
     }
 
     .recipeOfday {
