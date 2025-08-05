@@ -578,7 +578,7 @@ tr:nth-child(odd) {
     flex-wrap: wrap;
     padding-left: 16px;
     padding-right: 16px;
-    font-size: xx-small;
+    font-size: 16px;
 }
 
 
@@ -875,5 +875,8 @@ tr:nth-child(odd) {
         max-width: 270px;
     }
 
+    .impressum_main {
+        font-size: 12px;
+    }
 
 }
